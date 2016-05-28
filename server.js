@@ -12,7 +12,7 @@ var express 	= require('express'),
     chatClients = new Object();
 
 // listening to port...
-server.listen process.env.PORT || 5000
+server.listen process.env.PORT || 5000;
 
 // configure express, since this server is
 // also a web server, we need to define the
