@@ -1,12 +1,27 @@
 {
-	"name": "chat-node",
-	"version": "0.3.0",
-	"description": "Simple",
-	"keywords": "game",
-	"dependencies": {
-		"express": "4.x",
-		"socket.io": "< 1.0.0",
-		"underscore": "1.x",
-		"optimist": "0.6.1"
-	}
+  "name": "chat-noded",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "socket.io": "1.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anandheritage/chat-node.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
