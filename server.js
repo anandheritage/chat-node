@@ -12,7 +12,9 @@ var express 	= require('express'),
     chatClients = new Object();
 
 // listening to port...
-server.listen process.env.PORT || 5000;
+app.listen(process.env.PORT || 3000, function () {
+  console.log('Example app listening on port 3000!');
+});
 
 // configure express, since this server is
 // also a web server, we need to define the
