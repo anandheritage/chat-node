@@ -5,7 +5,6 @@ var express 	= require('express'),
 	app			= express(),
     server  	= require('http').createServer(app),
     io      	= require('socket.io').listen(server),
-    port    	= 8080,
 
     // hash object to save clients data,
     // { socketid: { clientid, nickname }, socketid: { ... } }
@@ -239,4 +238,3 @@ function generateId(){
 }
 
 // show a message in console
-console.log('Chat server is running and listening to port %d...', port);
